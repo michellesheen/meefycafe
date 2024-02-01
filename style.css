@@ -10,7 +10,7 @@ body {
     padding: 100;
 }
 
-#main {
+#dessert {
     border-style: solid;
     border-color: palevioletred;
     border-width: 2px;
@@ -37,11 +37,25 @@ body {
         display: flex;
     }
     
-    #main {
-        width: 70%;
+    #dessert {
+        width: 30%;
     }
     
     #sidebar {
-        width: 30%;
+        width: 70%;
+    }
+}
+
+@media (min-width: 500px) {
+    #navigator {
+        display: flex;        
+    }
+
+    #Menu {
+        width: 30%
+    }
+
+    #About {
+        width: 70%
     }
 }
