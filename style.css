@@ -6,8 +6,15 @@ html {
 body {
     background-color: blanchedalmond;
     font-family: cursive;
-    margin: 1000;
-    padding: 100;
+    padding-left: 100px;
+}
+
+#sidebar {
+    padding-left: 20px;
+}
+
+#dessert {
+    padding-left: 15px;
 }
 
 #dessert {
@@ -17,6 +24,10 @@ body {
     border-radius: 25px;
     background-color: palevioletred;
 
+}
+
+li {
+    font-family: 'Inconsolata', monospace;
 }
 
 #menuitems {
@@ -31,6 +42,11 @@ body {
     color: #AA336A;
 }
 
+button {
+    border-width: 0;
+
+    background: none;
+}
 
 @media (min-width: 600px) {
     #container {
