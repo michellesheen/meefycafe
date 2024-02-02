@@ -23,6 +23,7 @@ body {
     border-width: 2px;
     border-radius: 25px;
     background-color: palevioletred;
+    padding-bottom: 10px;
 
 }
 
@@ -30,8 +31,20 @@ li {
     font-family: 'Inconsolata', monospace;
 }
 
+.flexbox {
+    display: flex;
+
+}
+
+
+#icecream {
+    width: 128px;
+
+}
+
 #menuitems {
-    color: darkred
+    color: darkred;
+    padding-right: 10px;
 }
 
 .pink {
@@ -48,6 +61,7 @@ button {
     background: none;
 }
 
+/* this is to make things happen when the screen is biger than 600px */
 @media (min-width: 600px) {
     #container {
         display: flex;
